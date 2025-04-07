@@ -27,7 +27,7 @@ pip install git+https://github.com/ashkanfeyzollahi/justforping.git
 Or you may want to build it from source:
 
 ```bash
-git clone https://github.com/ashkanfeyzollahi/justforping
+git clone https://github.com/ashkanfeyzollahi/justforping.git
 cd justforping
 python -m build
 ```
