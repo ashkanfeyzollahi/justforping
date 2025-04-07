@@ -12,10 +12,10 @@ Definitely nothing but no support for `Python<3.8`
 
 ## Installation
 
-The Easiest method to install is using **Pip**:
+Currently, **justforping** is not available on **pypi.org**, so you may install it this way:
 
 ```bash
-pip install justforping
+pip install git+https://github.com/ashkanfeyzollahi/justforping.git
 ```
 
 Or you may want to build it from source:
@@ -24,6 +24,12 @@ Or you may want to build it from source:
 git clone https://github.com/ashkanfeyzollahi/justforping
 cd justforping
 python -m build
+```
+
+And you may also wanna include **justforping** in `requirements.txt`, and here's how you do it:
+
+```plain
+justforping@git+https://github.com/ashkanfeyzollahi/justforping@main
 ```
 
 ## Example Usage
