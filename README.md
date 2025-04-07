@@ -34,7 +34,7 @@ python -m build
 
 And you may also wanna include **justforping** in `requirements.txt`, and here's how you do it:
 
-```python
+```bash
 # Get justforping from Pypi.org
 justforping==0.1.0
 
